@@ -49,9 +49,9 @@ class AutoUpdater:
 
 
         #display upgrade messages if they exist
-        if(int(utils.getSetting('upgrade_notes')) < UPGRADE_INT):
-            xbmcgui.Dialog().ok(utils.getString(30000),utils.getString(30030))
-            utils.setSetting('upgrade_notes',str(UPGRADE_INT))
+        #if(int(utils.getSetting('upgrade_notes')) < UPGRADE_INT):
+        #    xbmcgui.Dialog().ok(utils.getString(30000),utils.getString(30030))
+        #    utils.setSetting('upgrade_notes',str(UPGRADE_INT))
             
         
         #program has started, check if we should show a notification
