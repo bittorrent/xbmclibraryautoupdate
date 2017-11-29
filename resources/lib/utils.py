@@ -3,7 +3,7 @@ import xbmcgui
 import xbmcaddon
 import xbmcvfs
 
-__addon_id__= 'service.libraryautoupdate'
+__addon_id__= 'service.bt.libraryautoupdate'
 __Addon = xbmcaddon.Addon(__addon_id__)
 
 def check_data_dir():
