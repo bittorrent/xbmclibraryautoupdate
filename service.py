@@ -270,7 +270,7 @@ class AutoUpdater:
                 
         #run the clean operation
         utils.log("Cleaning Database")
-        xbmc.executebuiltin("CleanLibrary(" + media_type + “), false“)
+        xbmc.executebuiltin("CleanLibrary(" + media_type + "), false")
 
         #write last run time, will trigger notifications
         self.writeLastRun()
